@@ -1,0 +1,2 @@
+# Notescout
+An educational website.
