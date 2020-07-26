@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+background-image:url("bg2.png");
+}
+form {border: 4px solid #f1f1f1;}
+.container1
+{
+	background-image: linear-gradient(to bottom right,black, #333399);
+	./background-color:#333399;
+	border:4px solid black;
+	padding: 16px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 30%;
+	height: 40%;
+}
+
+
+input[type=text], input[type=password] {
+background-image: linear-gradient(to right,white, #333399);
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px ;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #330099   ;
+  color: white;
+  padding: 14px 20px;
+  margin: 1px 50px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+a{
+color:red;
+}
+</style>
+</head>
+<body>
+	
+  <div class="container1">
+	<h2>USER LOGIN</h2>
+
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="upwd"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="upwd" required>      
+    <br>
+	
+    <a href="#">Forgot password?</a>
+	
+    <label>
+      <input type="checkbox" checked="checked" name="rememberme"> Remember me
+    </label>
+	<button type="submit">Login</button>
+	
+  </div>
+
+  
+
+
+</body>
+</html>
