@@ -1,0 +1,105 @@
+*{
+ margin:0;
+ padding: 0;
+ font-family:sans-serif ;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+  /*  background-color: #333;*/
+    /* background-image: linear-gradient(45deg, #000000, #006d80);*/
+   background-image: url("Untitled design (1).png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li{
+    display: inline-flex;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 50px;
+    margin-top: -19px;
+    margin-right: 35px;
+}
+
+.active{
+    color: #19dafa !important;
+}
+
+.reg{
+    right: 120px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    width:80%;
+    height: 70%;
+    top:25%;
+    left:130px;
+    position:absolute;
+    color:white;
+}
+
+.apptext{
+    width: 50%;
+    float: left;
+}
+
+.apptext h1{
+   font-size: 43px;
+   width: 640   px;
+   position: relative;
+   margin-left: 40px;
+}
+
+.apptext p  {
+    font-size: 15px;
+    width: 650px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #c3c3c3;
+ }
+
+ .picture{
+     width: 50%;
+     float:right;
+ }
+
+ .picture img{
+    width: 100%;
+    margin-top: -90px;
+ }
+
+ .social-icon{
+     left: 0;
+     bottom: 0;
+     position: absolute;
+     color: white;
+ }
+
+ .social-icon ul{
+     display: inline-flex;
+     margin: 40px 120px;
+     text-align: center;
+ }
+
+ .social-icon ul li{
+    list-style: none;
+    margin: 0 50px auto;
+    cursor: pointer;
+}
