@@ -124,6 +124,7 @@ div.sticky {
   display: table;
   clear: both
 }  
+
   .column-66 {   
       margin: 0% 15%;
       background: white;
@@ -199,10 +200,15 @@ div.sticky {
   .syntaxhighlighter table {
     width: 100%!important;
   }
+
+  #images{
+    margin: 0px 223px;
+    border-radius: 50px;
+  }
   
   
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .column-66{
       margin: 0% 0%;
       background: white;
@@ -234,6 +240,13 @@ div.sticky {
 
  .col-c a{
   margin: 10px 15px;
+}
+
+
+#images{
+  width: 100%;
+  padding: 0px 3px;
+  margin: 0px;
 }
 
 
@@ -377,3 +390,8 @@ div.sticky {
         from {-webkit-transform: scale(0)} 
         to {-webkit-transform: scale(1)}
       }  
+
+
+
+
+    
