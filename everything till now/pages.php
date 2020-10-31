@@ -53,7 +53,7 @@ if (isset($_SESSION["uname"])) {
 
 <div style="margin: 100px 0px 0px 0px;" class="sticky">
 <a href="#" class="previous round">‹ back</a>
-<a href="#" class="next round">next ›</a>
+<a href="page2.php" class="next round">next ›</a>
 </div>
 
   <div class="row">
