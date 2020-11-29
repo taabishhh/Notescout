@@ -25,7 +25,7 @@ include('login.php');
     <a href="#" class="active">Home</a>
     <a href="webdev.php">WebDev</a>
     <a href="#">WebForum</a>
-    <a href="#about">About</a>
+    <a href="aboutus.html">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
