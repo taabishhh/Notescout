@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php 
+<?php
 session_start();
 include('login.php');
 
@@ -20,17 +20,17 @@ include('login.php');
 <div class="logo">
     <a style="padding: unset;"><img src="123.png" alt="logo"></a>
 </div>
-  
-<div class="topnav" id="myTopnav"> 
+
+<div class="topnav" id="myTopnav">
     <a href="#" class="active">Home</a>
     <a href="webdev.php">WebDev</a>
-    <a href="webforum.php">WebForum</a>
+    <a href="#">WebForum</a>
     <a href="aboutus.html">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
 	<?php else : ?>
-	
+
 	<a class="reg"><?php echo 'Welcome ';echo $name ?></a>
 	<a  href="logout.php">Logout </a>
 	<?php endif; ?>
@@ -60,16 +60,16 @@ Use our Forum to Ask &amp;Solve Question asked by students
   </div>
 </div>
 
-<div class="row1">    
+<div class="row1">
     <div class="col-a">
     <h3>Follow</h3>
       <i class="fa fa-envelope" aria-hidden="true"></i>
       <i class="fa fa-facebook" aria-hidden="true"></i>
       <i class="fa fa-instagram" aria-hidden="true"></i>
       <i class="fa fa-whatsapp" aria-hidden="true"></i>
-    </div> 
+    </div>
     <div class="col-b">
-      <h3>NoteScout</h3>
+      <h3>NoteScout</h3
       <img src="123.png" alt="logo">
     </div>
     <div class="col-c">
