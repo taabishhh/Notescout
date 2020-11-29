@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php 
+<?php
 include('login.php');
 session_start();
 if (isset($_SESSION["uname"])) {
@@ -22,17 +22,17 @@ if (isset($_SESSION["uname"])) {
 <div class="logo">
     <a style="padding: unset;"><img src="123.png" alt="logo"></a>
 </div>
-  
-<div class="topnav" id="myTopnav"> 
+
+<div class="topnav" id="myTopnav">
     <a href="home.php">Home</a>
     <a href="webdev.php" class="active">WebDev</a>
     <a href="webforum.php">WebForum</a>
-    <a href="#about">About</a>
+    <a href="aboutus.php">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
 	<?php else : ?>
-	
+
 	<a class="reg"><?php echo 'Welcome ';echo $name ?></a>
 	<a  href="logout.php">Logout </a>
 	<?php endif; ?>
@@ -45,7 +45,7 @@ if (isset($_SESSION["uname"])) {
   <input type="text" id="topicname" name="topicname" placeholder="Related to (Ex: CSS / HTML / JS)" value="" required/>
   <img id="newthread" src="new thread page.svg" alt="">
   <img id="inputdesign" src="Frame 2.svg" alt="">
- 
+
 </div>
 
 
@@ -74,4 +74,3 @@ window.onclick = function(event) {
 
 </body>
 </html>
-

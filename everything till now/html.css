@@ -1,15 +1,15 @@
 * {
   box-sizing:border-box;
 }
-    
+
     html{
-      scroll-behavior :smooth ; 
+      scroll-behavior :smooth ;
     }
-      
+
     body {
         margin: 0;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1rem;
+       font-family: American Typewriter, serif
+       font-size: 1rem;
         font-weight: 400;
         line-height: 1.5;
         text-align: left;
@@ -17,7 +17,7 @@
    }
 
 
-    
+
     .topnav {
     border-color: white;
     /* margin-left: 200px; */
@@ -25,7 +25,7 @@
     overflow: hidden;
     padding: 21px 0px 15px 220px;
     }
-    
+
     .topnav a {
 
      /* border-top-color:white;*/
@@ -37,27 +37,27 @@
       text-decoration: none;
       font-size: 17px;
     }
-    
+
     .active {
       color:rgb(0, 183, 255);
     }
-    
+
     .topnav .icon {
       float: left;
       display: none;
     }
-  
-    
+
+
     .topnav a:hover, .dropdown:hover .dropbtn {
       cursor: pointer;
       color: white;
     }
-    
+
     .dropdown-content a:hover {
       background-color: rgba(85, 85, 85, 0.103);
       color: white;
     }
-    
+
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -88,7 +88,7 @@
 
 .apptext h1{
  font-size: 43px;
- width: 640   px;
+ width: 640px;
  position: relative;
  margin-left: 40px;
 }
@@ -150,9 +150,9 @@ cursor: pointer;
   clear: both;
 }
 
-.row1 {  
+.row1 {
   text-align: center;
-  background-color: #ffffff30;
+  background-image: linear-gradient(rgba(255,255,255,0), #ffffff30);
   padding: 20px 0%;
   margin: 0% 5%;
 }
@@ -174,14 +174,16 @@ cursor: pointer;
 }
 .btn{
   height: 100%;
-    border-style: none;
+    border-style: solid;
+    border-color: white;
     border-radius: 15px;
-    color: black;
+    color: white;
     width: 100%;
     padding: 35px 0px;
     text-align: center;
-    background-color: white;
+    background-color: #ffffff30;
     outline-style: none;
+    position: static;
 }
 
 .btn h2{
@@ -190,12 +192,15 @@ cursor: pointer;
 
 .btn h2:hover{
   color: rgb(71, 71, 71);
+
 }
 
 .btn:hover {
-  border: 2px solid white;
-  background: transparent;
+  border: 2px solid #ffffff30;
+  background-color:rgba(0,0,0,0.1);
   color: white;
+  box-shadow: 8px 8px #ffffff30;
+  transition: .3s;
 }
 /* Responsive columns */
 @media screen and (max-width: 600px) {
@@ -214,8 +219,8 @@ cursor: pointer;
     @media screen and (max-width: 600px) {
       .topnav a{
         display:none;
-      } 
-      
+      }
+
       .dropdown .dropbtn {
         display: none;
       }
@@ -259,7 +264,7 @@ cursor: pointer;
         overflow: hidden;
         padding: 0px 0px;
       }
-      
+
       .banner{
         display: none;
       }
@@ -267,7 +272,7 @@ cursor: pointer;
       .picture{
         display: none;
       }
-      
+
       .reg{
         margin-left: 0;
         margin-top: 0;
@@ -318,9 +323,8 @@ cursor: pointer;
       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
       padding-top: 60px;
     }
-    
+
     .animate {
       -webkit-animation: animatezoom 0.2s;
       animation: animatezoom 0.2s;
     }
-  

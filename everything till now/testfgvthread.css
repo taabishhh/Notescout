@@ -1,14 +1,14 @@
 * {
     box-sizing:border-box;
   }
-  /*::selection {
+  ::selection {
     background: yellow;
-  }*/
-
+  }
+    
       html{
-        scroll-behavior :smooth ;
+        scroll-behavior :smooth ; 
       }
-
+        
       body {
           margin: 0;
          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,7 +16,7 @@
           font-weight: 400;
           line-height: 1.5;
           text-align: left;
-          background-image: linear-gradient(90deg, #3F0D40,#271F3A, #08445C);
+          background-image: linear-gradient(215deg, #3F0D40,#271F3A, #08445C);
      }
 
       .topnav {
@@ -26,9 +26,9 @@
       overflow: hidden;
       padding: 21px 0px 15px 220px;
       }
-
+      
       .topnav a {
-
+  
        /* border-top-color:white;*/
           float: left;
         display: block;
@@ -38,37 +38,37 @@
         text-decoration: none;
         font-size: 17px;
       }
-
+      
       .active {
         color:rgb(0, 183, 255);
       }
-
+      
       .topnav .icon {
         float: left;
         display: none;
       }
-
-
+    
+      
       .topnav a:hover, .dropdown:hover .dropbtn {
         cursor: pointer;
         color: white;
       }
-
+      
       .dropdown-content a:hover {
         background-color: rgba(85, 85, 85, 0.103);
         color: white;
       }
-
+      
       .dropdown:hover .dropdown-content {
         display: block;
       }
-
+  
       .logo a img{
         height: 3rem !important;
         margin-top: 25px;
         margin-left: 80px;
     }
-
+  
    .reg{
     margin-left: 300px;
     margin-top: 0px;
@@ -76,29 +76,12 @@
 
   /* previous and next START */
 
-
-
-#csstemplate{
-  position: absolute;
-  margin-top: -417px;
-  margin-left: 582px;
+#testfgvthread{
+  width: 100%;
 }
-
-#htmltemplate{
-  position: absolute;
-    margin-top: -418px;
-    margin-left: 220px;
-}
-
-#JStemplate{
-  position: absolute;
-  margin-top: -417px;
-  margin-left: 946px;
-}
-
 
   @media screen and (max-width: 800px) {
-
+   
 
 
 
@@ -109,8 +92,8 @@
 
     .topnav a{
           display:none;
-        }
-
+        } 
+        
     .dropdown .dropbtn {
           display: none;
         }
@@ -118,7 +101,7 @@
           float: right;
           display: block;
         }
-
+    
      .topnav.responsive {
           margin: -56px 0px 0px 200px;
       position: relative;
@@ -144,29 +127,29 @@
           width: 100%;
           text-align: left;
         }
-
+  
         .topnav{
         background-color: transparent;
           margin: -64px 0px 0px 0px;
           overflow: hidden;
           padding: 0px 0px;
         }
-
-
-
+        
+        
+      
         body{
           width: 100%;
           height: 100%;
           background-image: linear-gradient(45deg, #3F0D40,#271F3A, #08445C,#3F0D40);
         }
-
+  
         .logo a img{
           height: 3rem !important;
           margin-top: 15px;
           margin-left: 15px;
       }
       }
-
+    
       .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -180,13 +163,18 @@
         background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
         padding-top: 60px;
       }
-
+      
       .animate {
         -webkit-animation: animatezoom 0.2s;
         animation: animatezoom 0.2s;
       }
-
+      
       @-webkit-keyframes animatezoom {
-        from {-webkit-transform: scale(0)}
+        from {-webkit-transform: scale(0)} 
         to {-webkit-transform: scale(1)}
-      }
+      }  
+
+
+
+
+    

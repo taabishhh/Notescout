@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<?php 
-include('login.php');
+<?php
 session_start();
-if (isset($_SESSION["uname"])) {
-  $name=$_SESSION["uname"];
-}
+include('login.php');
+
 ?>
 <html>
 <head>
@@ -22,17 +20,17 @@ if (isset($_SESSION["uname"])) {
 <div class="logo">
     <a style="padding: unset;"><img src="123.png" alt="logo"></a>
 </div>
-  
-<div class="topnav" id="myTopnav"> 
+
+<div class="topnav" id="myTopnav">
     <a href="home.php">Home</a>
     <a href="webdev.php" class="active">WebDev</a>
     <a href="webforum.php">WebForum</a>
-    <a href="#about">About</a>
+    <a href="aboutus.php">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
 	<?php else : ?>
-	
+
 	<a class="reg"><?php echo 'Welcome ';echo $name ?></a>
 	<a  href="logout.php">Logout </a>
 	<?php endif; ?>
@@ -43,9 +41,9 @@ if (isset($_SESSION["uname"])) {
 
 <img id="alltopic" src="all topic.svg" alt="">
 
-<a href="HTML_forum.php"><img id="htmltemplate" src="htmltemplate.png" alt=""></a> 
-<a href="CSS_forum.php"><img id="csstemplate" src="csstemplate.svg" alt=""></a> 
-<a href="JS_forum.php"><img id="JStemplate" src="JStemplate.png" alt=""></a> 
+<a href="HTML_forum.php"><img id="htmltemplate" src="htmltemplate.png" alt=""></a>
+<a href="CSS_forum.php"><img id="csstemplate" src="csstemplate.svg" alt=""></a>
+<a href="JS_forum.php"><img id="JStemplate" src="JStemplate.png" alt=""></a>
 </div>
 
 
@@ -74,4 +72,3 @@ window.onclick = function(event) {
 
 </body>
 </html>
-
