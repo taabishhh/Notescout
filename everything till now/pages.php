@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php
+<?php 
 include('login.php');
 session_start();
 if (isset($_SESSION["uname"])) {
@@ -22,17 +22,17 @@ if (isset($_SESSION["uname"])) {
 <div class="logo">
     <a style="padding: unset;"><img src="123.png" alt="logo"></a>
 </div>
-
-<div class="topnav" id="myTopnav">
+  
+<div class="topnav" id="myTopnav"> 
     <a href="home.php">Home</a>
     <a href="webdev.php" class="active">WebDev</a>
-    <a href="#">WebForum</a>
+    <a href="webforum.php">WebForum</a>
     <a href="#about">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
 	<?php else : ?>
-
+	
 	<a class="reg"><?php echo 'Welcome ';echo $name ?></a>
 	<a  href="logout.php">Logout </a>
 	<?php endif; ?>
@@ -42,17 +42,17 @@ if (isset($_SESSION["uname"])) {
 <h1 style="font-size: 7vw;
           text-align: center;
           font-weight: 300;
-          line-height: 1.25;
+          line-height: 1.25;   
           border-bottom-style: solid;
-          border-width: 1px;
-
+          border-width: 1px;     
+        
           margin: 0px 0px;
           padding: 30px 0px 50px 0px;
           font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
           color: aliceblue;">Introduction to<br>HTML</h1>
 
 <div style="margin: 100px 0px 0px 0px;" class="sticky">
-<a href="html.php" class="previous round">‹ back</a>
+<a href="#" class="previous round">‹ back</a>
 <a href="page2.php" class="next round">next ›</a>
 </div>
 
@@ -187,14 +187,14 @@ if (isset($_SESSION["uname"])) {
     </div>
   </div>
 
-  <div class="row1">
+  <div class="row1">    
     <div class="col-a">
     <h3>Follow</h3>
       <i class="fa fa-envelope" aria-hidden="true"></i>
       <i class="fa fa-facebook" aria-hidden="true"></i>
       <i class="fa fa-instagram" aria-hidden="true"></i>
       <i class="fa fa-whatsapp" aria-hidden="true"></i>
-    </div>
+    </div> 
     <div class="col-b">
       <h3>NoteScout</h3>
       <img src="123.png" alt="logo">
@@ -232,3 +232,4 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
