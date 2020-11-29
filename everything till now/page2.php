@@ -26,7 +26,7 @@ if (isset($_SESSION["uname"])) {
 <div class="topnav" id="myTopnav"> 
     <a href="home.php">Home</a>
     <a href="webdev.php" class="active">WebDev</a>
-    <a href="#">WebForum</a>
+    <a href="webforum.php">WebForum</a>
     <a href="#about">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>

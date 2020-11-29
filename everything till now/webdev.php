@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php
+<?php 
 include('login.php');
 session_start();
 if (isset($_SESSION["uname"])) {
@@ -22,17 +22,17 @@ if (isset($_SESSION["uname"])) {
 <div class="logo">
     <a style="padding: unset;"><img src="123.png" alt="logo"></a>
 </div>
-
-<div class="topnav" id="myTopnav">
+  
+<div class="topnav" id="myTopnav"> 
     <a href="home.php">Home</a>
     <a href="#" class="active">WebDev</a>
-    <a href="#">WebForum</a>
+    <a href="webforum.php">WebForum</a>
     <a href="#about">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
 	<?php else : ?>
-
+	
 	<a class="reg"><?php echo 'Welcome ';echo $name ?></a>
 	<a  href="logout.php">Logout </a>
 	<?php endif; ?>
@@ -42,9 +42,9 @@ if (isset($_SESSION["uname"])) {
 <h1 style="font-size: 7vw;
           text-align: center;
           font-weight: 300;
-          line-height: 1.25;
+          line-height: 1.25;   
           border-bottom-style: solid;
-          border-width: 1px;
+          border-width: 1px;     
           background-color: #00000040;
           margin: 0px 0px;
           padding: 30px 0px 50px 0px;
@@ -57,8 +57,8 @@ if (isset($_SESSION["uname"])) {
   background-color: #00000040;
 ">
     <div class="column-66">
-      <h1 style="color: aliceblue;
-      text-align: center;
+      <h1 style="color: aliceblue; 
+      text-align: center; 
       margin:auto;
       font-size: xxx-large;"><b>HTML</b></h1>
 
@@ -71,13 +71,12 @@ if (isset($_SESSION["uname"])) {
   font-family: sans-serif;
   color: black;
   width: 10rem;
-  height: 3rem;
-  cursor: pointer;">Click Here</button>
-</div></a>
+  height: 3rem;">Click Here</button>
+</div>
     </div>
 
     <div class="column-33">
-      <img class="img1" src="htmlcode1.png" width="335" height="471">
+      <img class="img1" src="htmlcode.jpg" width="335" height="471">
   </div>
   </div>
   </div>
@@ -87,58 +86,56 @@ if (isset($_SESSION["uname"])) {
     padding: 14px 0px;
     background-color: #00000040;">
           <div class="column-66">
-            <h1 style="color: aliceblue;
-                        text-align: center;
+            <h1 style="color: aliceblue; 
+                        text-align: center; 
                         margin-bottom: -25px;
                         font-size: xxx-large;"><b>CSS</b></h1>
-
+  
             <p style="color: white;
                       font-size: 2rem;
                       text-align: center;">Think of it as Dressing Style of<br>Website<p>
-
+  
             <div style="text-align:center">
-                <a href="css.php"><button style=" font-size: 1rem;
+                <button style=" font-size: 1rem;
                                 font-family: sans-serif;
                                 color: black;
                                 width: 10rem;
-                                height: 3rem;
-                                cursor: pointer;">Click Here</button></a>
+                                height: 3rem;">Click Here</button>
             </div>
           </div>
 
           <div class="column-33">
-            <img class="img1" style="margin: 80px 0px;" src="csscode1.png" width="335" height="471">
+            <img class="img1" style="margin: 80px 0px;" src="csscode.png" width="335" height="471">
           </div>
     </div>
   </div>
 
   <divclass="container">
-
+    
     <div class="row" style="
     padding: 14px 0px;
     background-color: #00000040;">
           <div class="column-66">
-            <h1 style="color: aliceblue;
-                        text-align: center;
+            <h1 style="color: aliceblue; 
+                        text-align: center; 
                         margin-bottom: -25px;
-                        font-size: xxx-large;"><b>JavaScript</b></h1>
-
+                        font-size: xxx-large;"><b>Java Script</b></h1>
+  
             <p style="color: white;
                       font-size: 2rem;
                       text-align: center;">Think of it as Muscles of<br>Website<p>
-
+  
             <div style="text-align:center">
-                <a href="javascript.php"><button style=" font-size: 1rem;
+                <button style=" font-size: 1rem;
                                 font-family: sans-serif;
                                 color: black;
                                 width: 10rem;
-                                height: 3rem;
-                                cursor: pointer;">Click Here</button></a>
+                                height: 3rem;">Click Here</button>
             </div>
           </div>
 
           <div class="column-33">
-            <img class="img1" style="margin: 80px 0px;" src="jscode2.png" width="335" height="471">
+            <img class="img1" style="margin: 80px 0px;" src="jscode.png" width="335" height="471">
           </div>
     </div>
   </div>
