@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <?php
-include('login.php');
 session_start();
-if (isset($_SESSION["uname"])) {
-  $name=$_SESSION["uname"];
-}
+include('login.php');
+
 ?>
 <html>
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/business-frontpage.css" rel="stylesheet">
+<link href="css/business-frontpage.css" rel="stylesheet">-->
 
 <link rel="stylesheet" href="CSS_forum.css?v=<?php echo time(); ?>">
-<script src="3b-comments.js"></script>
+<script src="3b-comments.js?v=<?php echo time(); ?>"></script>
 
 </head>
 <body>

@@ -13,7 +13,7 @@ include('login.php');
 <link href="css/business-frontpage.css" rel="stylesheet">
 
 <link rel="stylesheet" href="HTML_forum.css?v=<?php echo time(); ?>">
-<script src="h3b-comments.js"></script>
+<script src="h3b-comments.js?v=<?php echo time(); ?>"></script>
 
 </head>
 <body>
