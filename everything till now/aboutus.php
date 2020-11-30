@@ -47,32 +47,32 @@ include('login.php');
         <div class="inner">
             <span><img src="raunak1.svg" alt=""></span>
             <br>
-            <h1>Hey, I'm Raunak</h1>
-            <p>from IT Department, and this is our project</p>
+            <h1>Raunak Singh</h1>
+            <p>IT Department</p>
         </div>
 
         <div class="inner">
           <span><img src="taabish 1.svg" alt=""></span>
           <br>
-          <h1>Hey, I'm Taabish</h1>
-          <p>from IT Department, and this is our project</p>
+          <h1>Taabish Sutriwala</h1>
+          <p>IT Department</p>
       </div>
 
       <div class="inner">
         <span><img src="harshal.svg" alt=""></span>
         <br>
-        <h1>Hey, I'm Harshal</h1>
-        <p>from IT Department, and this is our project</p>
+        <h1>Harshal Sanyashi</h1>
+        <p>IT Department</p>
     </div>
 </div>
 
 <div class="after">
 
 <img style="" src="after pic.svg" alt="">
-<a style="
+<!--<a style="
     margin: -179px 0px 0px 640px;
     position: absolute; cursor:pointer;
-" href="home.php"><img src="goto.svg" alt=""></a>
+" href="home.php"><img src="goto.svg" alt=""></a>--->
 </div>
 
 <img id="about_mob" style="width:100%;margin: 10px 0px;padding: 0px 35px;" src="about nsmob.svg" alt="">
@@ -93,10 +93,10 @@ include('login.php');
         x.className = "topnav";
       }
     }
-    
+
     // Get the modal
     var modal = document.getElementById('login');
-    
+
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
@@ -105,6 +105,6 @@ include('login.php');
     }
 
     </script>
-    
+
     </body>
     </html>
