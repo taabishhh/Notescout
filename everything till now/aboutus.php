@@ -40,7 +40,7 @@ include('login.php');
 
 
 <div class="aboutnotescout">
-<img style="width:100%;" src="about notescout11.svg" alt="">
+<img style="width:100%;" src="about notescout111.svg" alt="">
 </div>
 
 <div class="info">
@@ -69,13 +69,13 @@ include('login.php');
 <div class="after">
 
 <img style="" src="after pic.svg" alt="">
-<img src="goto.svg" alt="" style="
+<a style="
     margin: -179px 0px 0px 640px;
-    position: absolute;
-">
+    position: absolute; cursor:pointer;
+" href="home.php"><img src="goto.svg" alt=""></a>
 </div>
 
-<img style="width:100%;margin: 10px 0px;padding: 0px 35px;" src="about nsmob.svg" alt="">
+<img id="about_mob" style="width:100%;margin: 10px 0px;padding: 0px 35px;" src="about nsmob.svg" alt="">
 
 <div class="MOB">
 <img style="width:100%; margin:10px 0px;" src="raunak_card.svg" alt="">

@@ -225,7 +225,16 @@
   display: none;
 }
 
+#about_mob{
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
+
+  #about_mob{
+    display: block;
+  }
+
 .after{
   display: none;
 }
