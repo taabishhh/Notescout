@@ -39,44 +39,49 @@ include('login.php');
 </div>
 
 
-
-<div class="about">
-<!--<img style="width:100%;" src="about notescout.svg" alt="">-->
-<h1>About Notescout</h1>
-<img src="123.png" style="height:220px; width:200px;">
-<p>This is a Web-development learning project website made by<br> The Students of Saraswati College of Engineering, Kharghar(Navi Mumbai)</p><br>
-
+<div class="aboutnotescout">
+<img style="width:100%;" src="about notescout11.svg" alt="">
 </div>
 
 <div class="info">
-
-  <div class="team">
-  <p>Our amazing team</p>
-  </div>
         <div class="inner">
-            <span ><img src="raunak.png" alt="" class="img"></span>
+            <span><img src="raunak1.svg" alt=""></span>
             <br>
-            <h1>Raunak Singh</h1>
-            <p> IT Department</p>
+            <h1>Hey, I'm Raunak</h1>
+            <p>from IT Department, and this is our project</p>
         </div>
 
         <div class="inner">
-          <span><img src="taabish.png" alt=""class="img"></span>
+          <span><img src="taabish 1.svg" alt=""></span>
           <br>
-          <h1>Taabish Sutriwala</h1>
-          <p> IT Department</p>
+          <h1>Hey, I'm Taabish</h1>
+          <p>from IT Department, and this is our project</p>
       </div>
 
       <div class="inner">
-        <span><img src="harshal.png" alt="" class="img"></span>
+        <span><img src="harshal.svg" alt=""></span>
         <br>
-        <h1>Harshal Sanyashi</h1>
-        <p> IT Department</p>
+        <h1>Hey, I'm Harshal</h1>
+        <p>from IT Department, and this is our project</p>
     </div>
 </div>
 
+<div class="after">
 
+<img style="" src="after pic.svg" alt="">
+<img src="goto.svg" alt="" style="
+    margin: -179px 0px 0px 640px;
+    position: absolute;
+">
+</div>
 
+<img style="width:100%;margin: 10px 0px;padding: 0px 35px;" src="about nsmob.svg" alt="">
+
+<div class="MOB">
+<img style="width:100%; margin:10px 0px;" src="raunak_card.svg" alt="">
+<img style="width:100%; margin:10px 0px;" src="taabish_card.svg" alt="">
+<img style="width:100%; margin:10px 0px;" src="harshal_card.svg" alt="">
+</div>
 
 
 <script>
@@ -88,10 +93,10 @@ include('login.php');
         x.className = "topnav";
       }
     }
-
+    
     // Get the modal
     var modal = document.getElementById('login');
-
+    
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
@@ -100,6 +105,6 @@ include('login.php');
     }
 
     </script>
-
+    
     </body>
     </html>

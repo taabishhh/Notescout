@@ -1,48 +1,33 @@
 * {
     box-sizing:border-box;
   }
-
+      
       html{
-        scroll-behavior :smooth ;
+        scroll-behavior :smooth ; 
       }
-
+        
       body {
           margin: 0;
-         font-family: Cambria;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           font-size: 1rem;
           font-weight: 400;
           line-height: 1.5;
           text-align: left;
-          /*background-color: black;*/
-          background-image: linear-gradient(90deg, #3F0D40,#271F3A, #08445C);
+          background-image: white;
      }
-
-     .about{
-       font-family: Cambria;
-       font-size: 30px;
-       text-align: center;
-       color: white;
-     }
-
-     .team{
-       font-family: Cambria;
-       font-size: 30px;
-       text-align: center;
-       color: white;
-       /*background-image: linear-gradient(rgba(255,255,255,0), #ffffff30);*/
-     }
-
+  
+  
+      
       .topnav {
-        background-image: linear-gradient(90deg, #3F0D40,#271F3A, #08445C);
-        /*background-color: #0382f3;*/
+        background-image:linear-gradient(45deg, #3F0D40,#271F3A, #08445C);;
       /* margin-left: 200px; */
       margin: -80px 0px 0px 0px;
       overflow: hidden;
       padding: 21px 0px 15px 220px;
       }
-
+      
       .topnav a {
-
+  
        /* border-top-color:white;*/
           float: left;
         display: block;
@@ -52,37 +37,37 @@
         text-decoration: none;
         font-size: 17px;
       }
-
+      
       .active {
         color:rgb(0, 183, 255);
       }
-
+      
       .topnav .icon {
         float: left;
         display: none;
       }
-
-
+    
+      
       .topnav a:hover, .dropdown:hover .dropbtn {
         cursor: pointer;
         color: white;
       }
-
+      
       .dropdown-content a:hover {
         background-color: rgba(85, 85, 85, 0.103);
         color: white;
       }
-
+      
       .dropdown:hover .dropdown-content {
         display: block;
       }
-
+  
       .logo a img{
         height: 3rem !important;
         margin-top: 25px;
         margin-left: 80px;
     }
-
+  
     .reg{
       margin-left: 400px;
       margin-top: 0px;
@@ -108,7 +93,7 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     padding-top: 60px;
   }
-
+  
   .animate {
     -webkit-animation: animatezoom 0.2s;
     animation: animatezoom 0.2s;
@@ -117,8 +102,8 @@
   @media screen and (max-width: 600px) {
     .topnav a{
       display:none;
-    }
-
+    } 
+    
     .dropdown .dropbtn {
       display: none;
     }
@@ -162,7 +147,7 @@
       overflow: hidden;
       padding: 0px 0px;
     }
-
+    
     .banner{
       display: none;
     }
@@ -175,8 +160,7 @@
       body{
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(90deg, #3F0D40,#271F3A, #08445C);
-        /*background-image: linear-gradient(45deg, #3F0D40,#271F3A, #08445C,#3F0D40);*/
+        background-image: linear-gradient(45deg, #3F0D40,#271F3A, #08445C,#3F0D40);
       }
 
       .logo a img{
@@ -191,21 +175,19 @@
 
 
 .info {
-  margin: 0;
+  margin-top: 20px;
   height: 50vh;
-  /*background-color: rgba(255,255,255,0);*/
-  /* background-image: linear-gradient(#ffffff30, rgba(255,255,255,0));*/
-  background-image: linear-gradient(rgba(255,255,255,0), #ffffff30);
+ font-family: sans-serif;
 }
 
 
 /**/
 
 .inner {
-  background: #3F0D40;
+  background: #9C27B0;
     padding: 1em;
     border-radius: 30px;
-    clip-path: circle(18% at 50% 29%);
+    clip-path: circle(18.6% at 50% 29%);
     transition: all 0.5s ease-in-out;
     cursor: pointer;
     float: left;
@@ -214,7 +196,7 @@
 }
 .inner:hover {
   clip-path: circle(75%);
-  background:#ffffff30;
+  background: #08445C;
 }
 .inner h1 {
   color: white;
@@ -233,36 +215,33 @@
     font-weight: bold;
     transition: color 0.5s;
     position: relative;
-    margin-left: 33%;
+    margin-left: 29%;
 }
 .inner:hover span {
   color: rgba(255, 255, 255, 0);
 }
-.img{
-  height:140px;
 
-  width:140px;
+.MOB{
+  display: none;
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
+.after{
+  display: none;
+}
 
-  .inner{
-    background: #3F0D40;
-      padding: 1em;
-      border-radius: 30px;
-      clip-path: circle(18% at 50% 29%);
-      transition: all 0.5s ease-in-out;
-      cursor: pointer;
-      float: left;
-width: auto;
-      margin: 20px;
-  }
+.aboutnotescout{
+display:none;
+}
 
-  .inner span {
-    color: white;
-      font-weight: bold;
-      transition: color 0.5s;
-      position: relative;
-      margin-left: 20%;
-  }
+.MOB{
+  background-color: white;
+  padding: 0px 30px;
+  display: block;
+  text-align: center;
+}
+
+.info{
+  display: none;
+}
 }
