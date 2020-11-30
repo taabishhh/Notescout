@@ -74,16 +74,16 @@ var comments = {
     comments.ajax({
       data: data,
       load: function (res) {
-        if (res == "OK") {
+      //  if (res == "OK") {
           // Clear comments
-          el.querySelector('input[name="name"]').value = "";
+          //
+          //el.querySelector('input[name="name"]').value = "";
           el.querySelector('textarea[name="message"]').value = "";
-          
           // Refresh comments
           comments.load();
-        } else {
-          alert("ERROR");
-        }
+      //  } else {
+      //    alert("ERROR");
+      //  }
       }
     });
     return false;

@@ -102,7 +102,7 @@ class Comments {
     $this->stmt = null;
     return $result;
   }
-  
+
   /* [COMMENTS FUNCTIONS] */
   function get($pid = 0) {
     // get() : get all comments for the given post

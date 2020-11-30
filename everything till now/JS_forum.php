@@ -15,7 +15,7 @@ if (isset($_SESSION["uname"])) {
 <link href="css/business-frontpage.css" rel="stylesheet">
 
 <link rel="stylesheet" href="JS_forum.css?v=<?php echo time(); ?>">
-<script src="j3b-comments.js"></script>
+<script src="j3b-comments.js?v=<?php echo time(); ?>"></script>
 
 </head>
 <body>

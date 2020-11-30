@@ -1,6 +1,8 @@
 <?php
 /* [INIT] */
 session_start();
+include('login.php');
+$_SESSION['name']=$name;
 require __DIR__ . DIRECTORY_SEPARATOR . "lib" . DIRECTORY_SEPARATOR . "2a-config.php";
 require PATH_LIB . "2b-lib-comments.php";
 $pdo = new Comments();
@@ -39,15 +41,16 @@ switch ($_POST['req']) {
 		<form onsubmit="return comments.add(this)" class="creplyform">
       <h1>Add a Question</h1>
       <input type="hidden" name="reply_id" value="<?=$_POST['reply_id']?>"/>
-      <input type="text" name="name" placeholder="Name" required/>
-      <textarea name="message" placeholder="Message" required></textarea>
+			<input type="hidden" name="name" value='<?php echo "$name";?>'/>
+      <!--<input type="text" name="name" placeholder="Name" required/>-->
+		   <textarea name="message" placeholder="Message" required></textarea>
       <input type="submit" class="cbutton" value="Post Comment"/>
     </form>
 		<?php break;
 
 	/* [ADD COMMENT] */
 	case "add":
-		echo $pdo->add($_POST['post_id'], $_POST['name'], $_POST['message'], $_POST['reply_id']) ? "OK" : "ERR";
+		echo $pdo->add($_POST['post_id'], $_POST['name'], $_POST['message'], $_POST['reply_id']) ?"OK" : "ERR";
 		break;
 }
 ?>
