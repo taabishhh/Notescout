@@ -163,8 +163,7 @@ The universal selector is used as a wildcard character. It selects all the eleme
 <br>< p>And me!< /p>
 <br>< /body >
 <br>Output:
-<html>
-<head >
+
 <style >
 h2,p{
    color: green;
@@ -176,8 +175,7 @@ h2,p{
 <p>This style will be applied on every paragraph.</p>
 <p id="para1">Me too!</p>
 <p>And me!</p>
-</body>
-</html>
+
 <br><br><b>6. Group Selector:</b>
 The grouping selector is used to select all the elements with the same style definitions.
 grouping selector is used to minimize the code. Commas are used to separate each selector in grouping.
@@ -214,12 +212,12 @@ h1, h2, p {
     text-align: center;
     color: ;
 }
-</style >
-</head >
-<body >
-<h1 >Hello< /h1 >
-<h2 >Hello world!(In smaller font)< /h2 >
-<p >This is a paragraph.< /p >
+</style>
+</head>
+<body>
+<h1 >Hello</h1>
+<h2>Hello world!(In smaller font)</h2>
+<p>This is a paragraph.</p>
 </body>
 
     </div>
@@ -239,10 +237,10 @@ h1, h2, p {
     </div>
     <div class="col-c">
       <h3>MORE</h3>
-      <a href="#Contact us">Contact</a>
-      <a href="#about us">About us</a>
-      <a href="#help">Help</a>
-      <a href="#faq">FAQ</a>
+      <a href="contact.php">Contact</a>
+      <a href="aboutus.php">About us</a>
+      <!--<a href="#help">Help</a>
+      <a href="#faq">FAQ</a>-->
     </div>
 
 <!--__________________________________________-->

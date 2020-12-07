@@ -22,7 +22,7 @@ include('login.php');
 </div>
 
 <div class="topnav" id="myTopnav">
-    <a href="home.php" class="active">Home</a>
+    <a href="home.php" >Home</a>
     <a href="webdev.php">WebDev</a>
     <a href="webforum.php">WebForum</a>
     <a href="aboutus.php">About</a>
@@ -73,10 +73,10 @@ Use our Forum to Ask &amp;Solve Question asked by students
     </div>
     <div class="col-c">
       <h3>MORE</h3>
-      <a href="#Contact us">Contact</a>
+      <a href="contact.php">Contact</a>
       <a href="aboutus.php">About us</a>
-      <a href="#help">Help</a>
-      <a href="#faq">FAQ</a>
+      <!--<a href="#help">Help</a>
+      <a href="#faq">FAQ</a>-->
     </div>
 </div>
 

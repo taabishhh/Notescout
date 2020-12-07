@@ -25,10 +25,10 @@ if (isset($_SESSION["uname"])) {
 </div>
 
 <div class="topnav" id="myTopnav">
-    <a href="home.php">Home</a>
-    <a href="webdev.php" class="active">WebDev</a>
-    <a href="#">WebForum</a>
-    <a href="#about">About</a>
+  <a href="home.php" >Home</a>
+  <a href="webdev.php">WebDev</a>
+  <a href="webforum.php">WebForum</a>
+  <a href="aboutus.php">About</a>
     <?php if (!isset($_SESSION["uname"])): ?>
 	<a class="reg" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</a>
 
@@ -127,10 +127,8 @@ if (isset($_SESSION["uname"])) {
 <div class="row1">
     <img src="123.png" alt="logo">
     <br>
-    <a href="html.php"><i class="fa fa-globe"> About us</i></a>
-    <a href="html.php"><i class="fa fa-asterisk"> Terms of use</i></a>
-    <a href="html.php"><i class="fa fa-question-circle"> FAQ's</i></a>
-    <a href="html.php"><i class="fa fa-user header-icons"> Contact</i></a>
+    <a href="aboutus.php"><i class="fa fa-globe"> About us</i></a>
+    <a href="contact.php"><i class="fa fa-user header-icons"> Contact</i></a>
 </div>
 
 

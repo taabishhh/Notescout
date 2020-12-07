@@ -124,10 +124,8 @@ if (isset($_SESSION["uname"])) {
 <div class="row1">
     <img src="123.png" alt="logo">
     <br>
-    <a href="html.php"><i class="fa fa-globe"> About us</i></a>
-    <a href="html.php"><i class="fa fa-asterisk"> Terms of use</i></a>
-    <a href="html.php"><i class="fa fa-question-circle"> FAQ's</i></a>
-    <a href="html.php"><i class="fa fa-user header-icons"> Contact</i></a>
+    <a href="aboutus.php"><i class="fa fa-globe"> About us</i></a>
+    <a href="contact.php"><i class="fa fa-user header-icons"> Contact</i></a>
 </div>
 
 

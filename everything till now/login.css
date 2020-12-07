@@ -12,7 +12,7 @@
 
 }*/
 
-form {
+form.modal-content animate {
 	font-family:Cambria;
 	background-image: url(6.jpg);
 	background-position: center;
@@ -40,18 +40,19 @@ h2{
 	color:white;
 	text-align:center;
 }
-input[type=text], input[type=password] {
+input[type=text].user, input[type=password].pass {
 	font-family:Cambria;
 /*background-image: linear-gradient(to right,white, rgb(24,142,142));*/
 	background-color:white;
 	width: 95%;
+	opacity:0.8;
 	padding: 12px 20px;
 	margin: 8px ;
 	border: 1px solid rgb(24,142,142);
 	box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type=submit].sub {
 
 
 	font-family: Cambria;
@@ -66,7 +67,7 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=submit].sub:hover {
   opacity: 0.6;
 }
 a.forgot{

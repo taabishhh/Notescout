@@ -19,6 +19,43 @@
           background-image: linear-gradient(215deg, #3F0D40,#271F3A, #08445C);
      }
 
+.fname{
+  color: white;
+  font-size: 35px;
+            text-align: center;
+            font-weight: 350;
+            margin: 0px 0px;
+            padding: 0px 0px 50px 0px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.contact{
+  text-align: center;
+  margin: 0px 0px;
+  padding: 0px 0px 50px 0px;
+}
+.textt{
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  width:50%;
+  height:35px;
+  font-size: 17px;
+  border: 2px solid rgb(24,142,142);
+	box-sizing: border-box;
+  opacity: 0.8;
+  padding: 12px 20px;
+	margin: 8px ;
+}
+.subm{
+  cursor: pointer;
+  font-family: Cambria;
+	/*background-color: rgb(24,142,142);*/
+	background-color: rgb(7,69,94);
+
+	color: white;
+	padding: 10px 10px;
+  border: none;
+	margin-left:55%;
+}
       .topnav {
       border-color: white;
       /* margin-left: 200px; */
@@ -99,10 +136,9 @@ a.next {
   background-color: white;
   color: black;
 }
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50%;}
+div.contact {
+
+  }
 
 
   /* previous and next END */
@@ -115,7 +151,8 @@ div.sticky {
   }
 
   .row1{
-    background-color: #ffffff30;
+    /*background-color: #ffffff30;*/
+    background-image: linear-gradient(rgba(255,255,255,0), #ffffff30);
     padding: 0px 0%;
     margin: 0% 5%;
 }

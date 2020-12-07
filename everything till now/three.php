@@ -98,10 +98,10 @@ The end-users machine is typically called the local host machine, which is conne
     </div>
     <div class="col-c">
       <h3>MORE</h3>
-      <a href="#Contact us">Contact</a>
-      <a href="#about us">About us</a>
-      <a href="#help">Help</a>
-      <a href="#faq">FAQ</a>
+      <a href="contact.php">Contact</a>
+      <a href="aboutus.php">About us</a>
+      <!--<a href="#help">Help</a>
+      <a href="#faq">FAQ</a>-->
     </div>
 
 <!--__________________________________________-->

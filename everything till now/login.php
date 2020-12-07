@@ -61,16 +61,16 @@ window.onclick = function(event) {
 	<h2>USER LOGIN</h2>
 
     <label class="headings"><b> Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input class="user" type="text" placeholder="Enter Username" name="uname" required>
 <br><br>
     <label class="headings"><b> Password</b></label>
-    <input type="password" placeholder="Enter Password" name="password" required>
+    <input class="pass" type="password" placeholder="Enter Password" name="password" required>
     <br><br>
     <!--<a class="forgot" href="#">Forgot password?</a>
     <label>
       <input type="checkbox" checked="checked" name="rememberme"> Remember me
     </label><br><br>-->
-	<input type="submit" value="Login" name="login">
+	<input class="sub" type="submit" value="Login" name="login">
 	<p class="register">Don't have an account?&nbsp<a class="register" href="register.php" >Register</a></p>
 
 	</form>
