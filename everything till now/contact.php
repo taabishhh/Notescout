@@ -107,9 +107,9 @@ if (isset($_SESSION["uname"])) {
   <div class="contact">
     <form method="POST" action="contact.php">
       <label class="fname">Name</label><br>
-      <input type="text" class="textt" name="fname" placeholder="Enter full name"><br>
+      <input type="text" class="textt" name="fname" placeholder="Enter full name" required><br>
       <label class="fname">E-mail ID</label><br>
-      <input type="text" class="textt" name="emailid" placeholder="Enter a valid emailid"><br>
+      <input type="text" class="textt" name="emailid" placeholder="Enter a valid emailid" required><br>
       <label class="fname" >Country</label><br>
       <select style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
       width:20%;
@@ -117,7 +117,7 @@ if (isset($_SESSION["uname"])) {
       border: 2px solid rgb(24,142,142);
       box-sizing: border-box;
       opacity: 0.8;
-      " name="country">
+      " name="country" required>
         <option value="India">India</option>
         <option value="Canada">Canada</option>
         <option value="United States of America<">United States of America</option>
@@ -143,7 +143,7 @@ if (isset($_SESSION["uname"])) {
        opacity: 0.8;
        padding: 12px 20px;
        margin: 8px ;
-       "name="subject" placeholder="Your message..." style="height:200px"></textarea><br>
+       "name="subject" placeholder="Your message..." style="height:200px" required></textarea><br>
       <input class="subm" type="submit" value="Submit" name="submit">
     </form>
   </div>
